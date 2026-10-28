@@ -1,0 +1,15 @@
+2026-10-08 12:11:41,929 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-08 12:11:41,930 INFO [33mPress CTRL+C to quit[0m
+2026-10-08 12:11:52,173 INFO 127.0.0.1 - - [08/Oct/2026 12:11:52] "GET / HTTP/1.1" 200 -
+2026-10-08 12:11:52,405 INFO 127.0.0.1 - - [08/Oct/2026 12:11:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-10-08 12:11:58,091 INFO 127.0.0.1 - - [08/Oct/2026 12:11:58] "GET /login HTTP/1.1" 200 -
+2026-10-08 12:12:16,144 INFO admin1 | 127.0.0.1 | login_success | admin1
+2026-10-08 12:12:16,153 INFO 127.0.0.1 - - [08/Oct/2026 12:12:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-10-08 12:12:16,287 INFO 127.0.0.1 - - [08/Oct/2026 12:12:16] "[32mGET / HTTP/1.1[0m" 302 -
+2026-10-08 12:12:16,479 INFO admin1 | 127.0.0.1 | admin_panel_access | 
+2026-10-08 12:12:16,487 INFO 127.0.0.1 - - [08/Oct/2026 12:12:16] "GET /admin HTTP/1.1" 200 -
+2026-10-08 12:12:30,553 INFO 127.0.0.1 - - [08/Oct/2026 12:12:30] "GET /login HTTP/1.1" 200 -
+2026-10-08 12:12:31,829 INFO 127.0.0.1 - - [08/Oct/2026 12:12:31] "[32mGET / HTTP/1.1[0m" 302 -
+2026-10-08 12:12:32,085 INFO admin1 | 127.0.0.1 | admin_panel_access | 
+2026-10-08 12:12:32,090 INFO 127.0.0.1 - - [08/Oct/2026 12:12:32] "GET /admin HTTP/1.1" 200 -
